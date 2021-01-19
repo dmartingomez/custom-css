@@ -1,0 +1,11 @@
+@import '~styles/helpers/_module';
+
+:host {
+	background: white;
+		&__logo-image {
+			&.desktop {
+				max-height: 130px;
+			}
+		}
+	}
+}

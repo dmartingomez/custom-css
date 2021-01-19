@@ -1,0 +1,15 @@
+@import '~styles/helpers/_module';
+
+:host {
+	nav {
+		ul {
+			li {
+				a {
+					@include button($background-color: white, $border-radius: 2px);
+					color: black;
+				}
+
+			}
+		}
+	}
+}
