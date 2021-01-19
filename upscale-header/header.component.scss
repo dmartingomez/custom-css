@@ -2,6 +2,7 @@
 
 :host {
 	background: white;
+	.header {
 		&__logo-image {
 			&.desktop {
 				max-height: 130px;
