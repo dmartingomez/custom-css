@@ -4,9 +4,21 @@
 	background: white;
 	.header {
 		&__logo-image {
-			&.desktop {
-				max-height: 300px;
+			&.desktop {				
+				max-height: 60px;
 			}
 		}
-	}
+		.header__top-left {
+			button {
+				&.header__hamburger {
+					height: 30px;
+					padding: 0 5px;
+				}
+			}
+			.header__logo-image {
+				max-height: 36px;
+				margin-left: 20px;
+			}
+		}		
+	}	
 }
