@@ -15,10 +15,18 @@
 					padding: 0 5px;
 				}
 			}
-			.header__logo-image {
-				max-height: 36px;
-				margin-left: 20px;
+			.upscale-mobile {
+				.header__logo-image {
+					max-height: 36px;
+					margin-left: 20px;
+				}
 			}
 		}		
-	}	
+	}
+	.ng-trigger-slideout {
+		.link-name {
+			color: #401f0e!important;
+			font-weight: bold;
+		}
+	}
 }
