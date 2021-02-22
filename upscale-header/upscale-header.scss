@@ -21,32 +21,33 @@
 		}		
 	}
 
-	.upscale-mobile {
-		.header__logo-image {
-			max-height: 36px;
-			margin-left: 20px;
-		}
+}
+
+.upscale-mobile {
+	.header__logo-image {
+		max-height: 36px;
+		margin-left: 20px;
 	}
-	
-	.link-row > a > div {
-		&.link-name {
-			color: #401f0e!important;
-			font-weight: bold;
-		}
-	}
-	.link-name {
-		word-break: break-all;
-		font-family: Roboto;
-		font-size: 16px;
-		font-size: 1.6rem;
-		line-height: 1.5;
-		font-weight: 800;
-		font-weight: normal;
-		font-style: normal;
-		font-stretch: normal;
-		letter-spacing: normal;
-		text-align: left;
-		text-decoration: none;
+}
+
+.link-row > a > div {
+	&.link-name {
 		color: #401f0e!important;
+		font-weight: bold;
 	}
+}
+.link-name {
+	word-break: break-all;
+	font-family: Roboto;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	font-weight: 800;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: normal;
+	text-align: left;
+	text-decoration: none;
+	color: #401f0e!important;
 }
