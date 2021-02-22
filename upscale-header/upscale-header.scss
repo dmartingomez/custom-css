@@ -17,16 +17,16 @@
 				}
 			}
 
-		}
-
-		.upscale-mobile {
-			.header__logo-image {
-				max-height: 36px;
-				margin-left: 20px;
-			}
 		}		
 	}
-
+	
+	.upscale-mobile {
+		.header__logo-image {
+			max-height: 36px;
+			margin-left: 20px;
+		}
+	}
+	
 	.link-row > a > div {
 		&.link-name {
 			color: #401f0e!important;
